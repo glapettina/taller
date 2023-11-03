@@ -121,11 +121,13 @@
           $_GET["ruta"] == "3acs" ||
           $_GET["ruta"] == "11cbtm" ||
           $_GET["ruta"] == "12cbtm" ||
+          $_GET["ruta"] == "13cbtm" ||
           $_GET["ruta"] == "11cbtt" ||
           $_GET["ruta"] == "12cbtt" ||
           $_GET["ruta"] == "13cbtt" ||
           $_GET["ruta"] == "21cbtm" ||
           $_GET["ruta"] == "22cbtm" ||
+          $_GET["ruta"] == "23cbtm" ||
           $_GET["ruta"] == "21cbtt" ||
           $_GET["ruta"] == "22cbtt" ||
           $_GET["ruta"] == "11ecstm" ||
@@ -134,11 +136,13 @@
           $_GET["ruta"] == "12ecstt" ||
           $_GET["ruta"] == "21ecstv" ||
           $_GET["ruta"] == "22ecstv" ||
+          $_GET["ruta"] == "23ecstv" ||
           $_GET["ruta"] == "31ecstv" ||
           $_GET["ruta"] == "32ecstv" ||
           $_GET["ruta"] == "41ecstv" ||
           $_GET["ruta"] == "42ecstv" ||
           $_GET["ruta"] == "11acstm" ||
+          $_GET["ruta"] == "12acstt" ||
           $_GET["ruta"] == "11acstt" ||
           $_GET["ruta"] == "salir") {
         

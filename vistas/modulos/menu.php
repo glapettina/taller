@@ -129,6 +129,7 @@
 			                  <ul class="treeview-menu">
 			                    <li><a href="11cbtm"><i class="fa fa-circle-o"></i> 1ro. 1ra. TM</a></li>
 			                    <li><a href="12cbtm"><i class="fa fa-circle-o"></i> 1ro. 2da. TM</a></li>
+			                    <li><a href="13cbtm"><i class="fa fa-circle-o"></i> 1ro. 3ra. TM</a></li>
 			                    <li><a href="11cbtt"><i class="fa fa-circle-o"></i> 1ro. 1ra. TT</a></li>
 			                    <li><a href="12cbtt"><i class="fa fa-circle-o"></i> 1ro. 2da TT</a></li>
 			                    <li><a href="13cbtt"><i class="fa fa-circle-o"></i> 1ro. 3ra. TT</a></li>
@@ -146,6 +147,7 @@
 	                  <ul class="treeview-menu">
 	                    <li><a href="21cbtm"><i class="fa fa-circle-o"></i> 2do. 1ra. TM</a></li>
 	                    <li><a href="22cbtm"><i class="fa fa-circle-o"></i> 2do. 2da. TM</a></li>
+	                    <li><a href="23cbtm"><i class="fa fa-circle-o"></i> 2do. 3ra. TM</a></li>
 	                    <li><a href="21cbtt"><i class="fa fa-circle-o"></i> 2do. 1ra. TT</a></li>
 	                    <li><a href="22cbtt"><i class="fa fa-circle-o"></i> 2do. 2da. TT</a></li>
 	                  </ul>
@@ -184,7 +186,6 @@
 	                  </a>
 	                  <ul class="treeview-menu">
 	                    <li><a href="11ecstm"><i class="fa fa-circle-o"></i> 1ro. 1ra. E TM</a></li>
-	                    <li><a href="12ecstm"><i class="fa fa-circle-o"></i> 1ro. 2da. E TM</a></li>
         	            <li><a href="11ecstt"><i class="fa fa-circle-o"></i> 1ro. 1ra. E TT</a></li>	                  
 	                  </ul>
 	                </li>
@@ -198,6 +199,7 @@
 	                  <ul class="treeview-menu">
 	                    <li><a href="21ecstv"><i class="fa fa-circle-o"></i> 2do. 1ra. E TV</a></li>
 	                    <li><a href="22ecstv"><i class="fa fa-circle-o"></i> 2do. 2da. E TV</a></li>
+	                    <li><a href="23ecstv"><i class="fa fa-circle-o"></i> 2do. 3ra. E TV</a></li>
 	                  </ul>
 	                  
 	                </li>
@@ -257,7 +259,7 @@
 	                  </a>
 	                  <ul class="treeview-menu">
 	                    <li><a href="11acstm"><i class="fa fa-circle-o"></i> 1ro. 1ra. A TM</a></li>
-	                    <li><a href="11acstt"><i class="fa fa-circle-o"></i> 1ro. 1ra. A TT</a></li>
+	                    <li><a href="12acstt"><i class="fa fa-circle-o"></i> 1ro. 2da. A TT</a></li>
 	                  </ul>
 	                </li>
 
