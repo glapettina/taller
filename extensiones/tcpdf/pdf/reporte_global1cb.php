@@ -145,7 +145,7 @@ $bloque2 = <<<EOF
 
 				<br>
 
-				Ciclo Lectivo: 2022
+				Ciclo Lectivo: 2023
 
 
 			</td>
