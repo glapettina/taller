@@ -161,8 +161,6 @@ $pdf->writeHTML($bloque2, false, false, false, false, '');
 
 //----------------------------------------------------------------------------------
 
-//----------------------------------------------------------------------------------
-
 $bloque3 = <<<EOF
 
 	<table style="font-size:10px; padding:5px 10px;">
@@ -184,7 +182,7 @@ $bloque3 = <<<EOF
 
 			</td>
 
-			<td style="text-align: center; border: 1px solid #666; background-color:white; width:180px">
+			<td style="text-align: center; border: 1px solid #666; background-color:white; width:185px">
 
 				<br>
 
@@ -193,7 +191,7 @@ $bloque3 = <<<EOF
 
 			</td>
 
-			<td style="text-align: center; border: 1px solid #666; background-color:white; width:180px">
+			<td style="text-align: center; border: 1px solid #666; background-color:white; width:185px">
 
 				<br>
 
@@ -203,7 +201,7 @@ $bloque3 = <<<EOF
 			</td>
 			
 
-			<td style="text-align: center; border: 1px solid #666; background-color:white; width:180px">
+			<td style="text-align: center; border: 1px solid #666; background-color:white; width:185px">
 
 				<br>
 
@@ -236,105 +234,6 @@ $pdf->writeHTML($bloque3, false, false, false, false, '');
 
 //--------------------------------------------------------
 
-//----------------------------------------------------------------------------------
-
-
-// $bloque4 = <<<EOF
-
-// 	<table style="font-size:10px; padding:5px 10px;">
-
-		
-
-// 		<tr>
-
-// 		<td style="text-align: center; border: 1px solid #666; background-color:white; width:225px">
-
-// 				<br>
-
-// 				XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-
-// 			</td>
-
-// 			<td style="text-align: center; border: 1px solid #666; background-color:white; width:75px">
-
-// 				<br>
-
-// 				Carpintería
-
-
-// 			</td>
-
-
-
-// 			<td style="text-align: center; border: 1px solid #666; background-color:white; width:75px">
-
-// 				<br>
-
-// 				Hojalatería
-
-
-// 			</td>
-
-// 			<td style="text-align: center; border: 1px solid #666; background-color:white; width:75px">
-
-// 				<br>
-
-// 				Promedio
-
-
-// 			</td>
-
-// 			<td style="text-align: center; border: 1px solid #666; background-color:white; width:75px">
-
-// 				<br>
-
-// 				Electricidad
-
-
-// 			</td>
-
-// 			<td style="text-align: center; border: 1px solid #666; background-color:white; width:75px">
-
-// 				<br>
-
-// 				Ajuste
-
-
-// 			</td>
-
-// 			<td style="text-align: center; border: 1px solid #666; background-color:white; width:75px">
-
-// 				<br>
-
-// 				Promedio
-
-
-// 			</td>
-
-// 			<td style="text-align: center; border: 1px solid #666; background-color:white; width:90px">
-
-// 				<br>
-
-// 				Promedio Final
-
-
-// 			</td>
-
-
-
-
-
-// 		</tr>
-
-// 	</table>
-
-// EOF;
-
-
-// $pdf->writeHTML($bloque4, false, false, false, false, '');
-
-//--------------------------------------------------------
 
 
 //----------------------------------------------------------------------------------
@@ -387,7 +286,7 @@ foreach ($respuestaGlobal as $key => $item) {
 			
 				//$promedio2 = "";
 
-				$promedioFinal = (number_format($not1) + number_format($not2) + number_format($not3)) / number_format(3);;
+				$promedioFinal = ($not1 + $not2 + $not3) / number_format(3);
 
 			}else if($not1 == 0 && $not2 == 0 && $not3 == 0){
 
@@ -448,7 +347,7 @@ $bloque5 = <<<EOF
 
 
 
-			<td style="text-align: center; border: 1px solid #666; background-color:white; width:30px">
+			<td style="text-align: center; border: 1px solid #666; background-color:white; width:35px">
 
 				<br>
 
@@ -466,7 +365,7 @@ $bloque5 = <<<EOF
 
 			</td>
 
-			<td style="text-align: center; border: 1px solid #666; background-color:white; width:30px">
+			<td style="text-align: center; border: 1px solid #666; background-color:white; width:35px">
 
 				<br>
 
@@ -485,7 +384,7 @@ $bloque5 = <<<EOF
 
 			</td>
 
-			<td style="text-align: center; border: 1px solid #666; background-color:white; width:30px">
+			<td style="text-align: center; border: 1px solid #666; background-color:white; width:35px">
 
 				<br>
 
